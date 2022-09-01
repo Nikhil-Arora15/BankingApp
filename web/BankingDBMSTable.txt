@@ -1,0 +1,14 @@
+create database soprabanking;
+
+use soprabanking;
+
+create table account
+(
+accno varchar(20),
+cname varchar(20),
+gender varchar(20),
+dob varchar(20),
+address varchar(20),
+mob int,
+role varchar(20)
+);
